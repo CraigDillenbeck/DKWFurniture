@@ -3,11 +3,9 @@
 
 <?php include 'nav.php';?>
 
-<div id="proj1" class="proj-bg">
-	
-</div>
-<div id="proj2" class="proj-bg">
-	
-</div>
+<img src="img/_DSC0862.jpg" class="proj-bg">
+
+<img src="img/_DSC0803.jpg" class="proj-bg">
+
 
 <?php include 'foot.php';?>

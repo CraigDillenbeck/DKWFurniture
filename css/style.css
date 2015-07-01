@@ -164,29 +164,9 @@ DANIEL PAGE STYLING
 PORTFOLIO STYLING
 ***********************/
 
-#proj1 {
-	background-image: url('../img/_DSC0862.jpg');
-}
-
-#proj2 {
-	background-image: url('../img/_DSC0803.jpg');
-}
-
-#proj3 {
-	background-image: url('../img/_DSC0782.jpg');
-}
-
-#proj4 {
-	background-image: url('../img/_DSC0862.jpg');
-}
-
-.proj-bg {
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom left;
-	width: 100vw;
-	height: 100vh;
-	display: table;
+img .proj-bg {
+	width: 100%;
+	height: auto;
 }
 
 .proj-title-wrap {
