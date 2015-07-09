@@ -112,7 +112,6 @@ HOME PAGE STYLING
 	margin: 0 auto;
 	padding-bottom: 20px;
 	border-bottom: solid #FFF 1px;
-	text-shadow: 3px 3px 5px #000;
 }
 
 .home-font {
@@ -262,44 +261,13 @@ MEDIA QUERIES
 	footer a {
 		color: #AAA;
 	}
-	
-	#nav-wrap {
-		height: 30px;
-		padding: 5px 0;
-	}
-
-	nav {
-		height: 30px;
-	}
-
-	nav img {
-		width: 30px;
-		opacity: 0.6;
-	}
-	nav ul li {
-		line-height: 30px;
-	}
 
 	/* HOME PAGE STYLING */
 
 	.home-container {
-		width: 240px;
+		width: 70%;
 	}
 
-	#title-logo {
-		width: 150px;
-		padding-bottom: 10px;
-	}
-
-	.home-font {
-		padding-top: 10px;
-		font-size: 0.8em;
-		line-height: 1.2em;
-	}
-
-	.font-large {
-		font-size: 1.25em;
-	}
 }
 
 /* TABLETS */
