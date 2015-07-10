@@ -7,7 +7,7 @@ body {
 body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
-	line-height: 2em;
+	line-height: 1.4em;
 	color: #EEE;
 	background: #333;
 }
@@ -196,7 +196,6 @@ footer a {
 
 footer a {
 	float: right;
-	font-weight: bold;
 	padding-top: 13px;
 }
 
@@ -240,11 +239,13 @@ MEDIA QUERIES
 	}
 
 	.home-container {
-		width: 80%;
+		width: 85%;
 	}
 
+	/* HOME PAGE */
+
 	#title-logo {
-		width: 150px;
+		width: 175px;
 		padding-bottom: 20px;
 	}
 
@@ -255,11 +256,51 @@ MEDIA QUERIES
 	}
 
 	.font-large {
-		font-size: 1.1em;
+		font-size: 1.25em;
 		line-height: 1.5em;
 	}
 
 	.font-medium {
+		font-size: 0.7em;
+	}
+
+	/* NAV AND FOOTER */
+
+	#nav-wrap,
+	nav ul li {
+		height: 35px;
+	}
+
+	#nav-wrap {
+		padding: 5px 0;
+	}
+
+	nav img {
+		width: 35px;
+	}
+
+	nav ul li {
+		float: right;
+		padding: 0 5%;
+		line-height: 35px;
+	}
+
+	nav ul li a,
+	footer a,
+	footer p {
 		font-size: 0.8em;
+	}
+
+	footer {
+		height: 20px;
+	}
+
+	footer a {
+		padding-top: 10px;
+	}
+
+	footer p {
+		margin: 0;
+		padding-top: 5px;
 	}
 }
