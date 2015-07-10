@@ -227,7 +227,12 @@ MEDIA QUERIES
 	}
 }
 
-/* PHONES - targetting iPhone 4/4S*/
+/* PHONES */
+
+
+/* TARGET IPHONE 5/5S */
+
+
 @media only screen and (min-width : 300px) and (max-width: 475px) {
 
 	.container {
@@ -239,7 +244,7 @@ MEDIA QUERIES
 	}
 
 	#title-logo {
-		width: 200px;
+		width: 150px;
 		padding-bottom: 20px;
 	}
 
@@ -250,11 +255,11 @@ MEDIA QUERIES
 	}
 
 	.font-large {
-		font-size: 1.5em;
+		font-size: 1.1em;
 		line-height: 1.5em;
 	}
 
 	.font-medium {
-		font-size: 1em;
+		font-size: 0.8em;
 	}
 }
