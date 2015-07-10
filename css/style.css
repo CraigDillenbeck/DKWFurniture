@@ -227,7 +227,7 @@ MEDIA QUERIES
 	}
 }
 
-/* PHONES */
+/* PHONES - targetting iPhone 4/4S*/
 @media only screen and (min-width : 300px) and (max-width: 475px) {
 
 	.container {
