@@ -281,11 +281,16 @@ MEDIA QUERIES
 
 	.quote {
 		font-size: 1.0em;
-		line-height: 1.1em;
+		line-height: 1.4em;
 	}
 
 	.quote-credit {
 		font-size: 0.7em;
+	}
+
+	.daniel-p-mobile {
+		font-size: 0.9em;
+		line-height: 1.4em;
 	}
 
 	/* NAV AND FOOTER */
