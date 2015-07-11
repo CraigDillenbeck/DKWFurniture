@@ -279,6 +279,19 @@ MEDIA QUERIES
 		margin: 15% auto 0 auto;
 	}
 
+	.quote {
+		font-size: 1.0em;
+		line-height: 1.1em;
+	}
+
+	.quote-credit {
+		font-size: 0.7em;
+		font-style: italic;
+		float: right;
+		margin: 0;
+		paddin: 0;
+	}
+
 	/* NAV AND FOOTER */
 
 	#nav-wrap,
