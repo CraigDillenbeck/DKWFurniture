@@ -116,6 +116,7 @@ HOME PAGE STYLING
 .large-font {
 	font-size: 2em;
 	line-height: 2.5em;
+	text-align: center;
 }
 
 .font-medium {
