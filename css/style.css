@@ -305,6 +305,12 @@ MEDIA QUERIES
 		line-height: 1.4em;
 	}
 
+	/* PORTFOLIO PAGE */
+
+	.project-title p {
+		font-weight: 200;
+	}
+
 	/* NAV AND FOOTER */
 
 	#nav-wrap,
