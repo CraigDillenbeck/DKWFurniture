@@ -7,7 +7,7 @@ body {
 body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
-	line-height: 1.5em;
+	line-height: 1.6em;
 	color: #EEE;
 	background: #333;
 }
@@ -73,6 +73,7 @@ HOME PAGE STYLING
 	background-image: url("../img/DSC0892.jpg");
 }
 
+.darken-bg,
 .background {
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -82,13 +83,16 @@ HOME PAGE STYLING
 	display: table;
 }
 
+.darken-bg {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
 .home-container {
 	height: 100vh;
 	width: 500px;
 	display: table-cell;
 	vertical-align: middle;
 	margin: 0 auto;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
 }
 
 #title-logo {
@@ -96,12 +100,11 @@ HOME PAGE STYLING
 	display: block;
 	margin: 0 auto;
 	padding-bottom: 20px;
-	border-bottom: solid #FFF 1px;
+	border-bottom: solid #AAA 1px;
 }
 
 .home-font {
 	width: inherit;
-	padding-top: 30px;
 	font-size: 1.25em;
 	text-align: center;
 	color: #FFF;
@@ -111,7 +114,7 @@ HOME PAGE STYLING
 
 .font-large {
 	font-size: 2em;
-	line-height: 1.5em;
+	line-height: 2.5em;
 }
 
 .font-medium {
@@ -127,21 +130,33 @@ DANIEL PAGE STYLING
 	background-image: url('../img/DSC8707.jpg');
 }
 
-.daniel-container,
-.contact-container {
-	float: left;
-	padding: 0 10px;
-	margin-top: 40%;
-}
-
 .daniel-container {
 	width: 50%;
+	margin: 15% auto 0 auto;
 }
 
-.contact-container {
-	width: 30%;
+.quote {
+	font-weight: 200;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	margin-bottom: 0;
 }
 
+.quote-credit {
+	font-size: 0.8em;
+	font-style: italic;
+	float: right;
+	margin: 0;
+	paddin: 0;
+}
+
+.clear-both {
+	clear: both;
+}
+
+.margin-top-20 {
+	margin-top: 50px;
+}
 
 /********************** 
 PORTFOLIO STYLING
@@ -217,7 +232,7 @@ MEDIA QUERIES
 /* PHONES */
 
 
-/* TARGET IPHONE 5/5S */
+/* TARGET MOBILE DEVICES */
 
 
 @media only screen and (min-width : 300px) and (max-width: 736px) {
@@ -255,6 +270,13 @@ MEDIA QUERIES
 
 	.font-medium {
 		font-size: 0.7em;
+	}
+
+	/* DANIEL PAGE */
+
+	.daniel-container {
+		width: 75%;
+		margin: 15% auto 0 auto;
 	}
 
 	/* NAV AND FOOTER */
