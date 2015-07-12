@@ -262,7 +262,12 @@ MEDIA QUERIES
 
 	.home-large-font {
 		width: inherit;
-		font-size: 1em;
+		font-size: 1.1em;
+	}
+
+	.home-strong-font {
+		width: inherit;
+		font-size: 0.8em;
 	}
 
 	/* DANIEL PAGE */
