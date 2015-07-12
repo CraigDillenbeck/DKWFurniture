@@ -91,7 +91,6 @@ HOME PAGE STYLING
 
 .home-container {
 	height: 100vh;
-	width: 500px;
 	display: table-cell;
 	vertical-align: middle;
 	margin: 0 auto;
@@ -105,24 +104,20 @@ HOME PAGE STYLING
 	border-bottom: solid #AAA 1px;
 }
 
-.large-font {
+.home-large-font,
+.home-strong-font {
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.home-large-font {
 	font-size: 2em;
 	line-height: 2.5em;
-	text-align: center;
-	margin: 0;
 }
 
-.strong-font {
-	width: 500px;
-	margin: 0 auto;
+.home-strong-font {
 	font-size: 1.25em;
-	line-height: 1.4em;
-	text-align: center;
-	color: #FFF;
-}
-
-.font-medium {
-	font-size: 1.5em;
 }
 
 
@@ -153,9 +148,8 @@ DANIEL PAGE STYLING
 	paddin: 0;
 }
 
-.margin-50 {
-	margin-top: 50px;
-	margin-bottom: 50px;
+.margin-50-auto {
+	margin: 50px auto;
 }
 
 /********************** 
@@ -266,19 +260,9 @@ MEDIA QUERIES
 		padding-bottom: 20px;
 	}
 
-	.home-font {
+	.home-large-font {
 		width: inherit;
-		padding-top: 20px;
 		font-size: 1em;
-	}
-
-	.font-large {
-		font-size: 1.25em;
-		line-height: 1.5em;
-	}
-
-	.font-medium {
-		font-size: 0.7em;
 	}
 
 	/* DANIEL PAGE */
