@@ -295,6 +295,9 @@ MEDIA QUERIES
 
 	.project-title p {
 		font-weight: 200;
+		font-size: 1.0em;
+		line-height: 0;
+		padding: 3px 0;
 	}
 
 	/* NAV AND FOOTER */
