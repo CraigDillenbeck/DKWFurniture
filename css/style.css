@@ -46,7 +46,7 @@ nav img {
 
 nav ul li {
 	float: right;
-	padding:0 3%;
+	padding: 0 3%;
 	line-height: 50px;
 }
 
@@ -164,17 +164,24 @@ PORTFOLIO STYLING
 }
 
 .project-title {
-	background: #333;
-	opacity: 0.7;
-	width: inherit;
+	width: 50%;
 	position: absolute;
-	top: 50%;
-	padding: 5px 0;
+	top: 45%;
+	left: 25%;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.project-title h2 {
+	font-size: 3em;
+	font-weight: 100;
+	margin: 0;
+	text-align: center;
+	line-height: 1.5em;
+	border-bottom: solid 1px #AAA;
 }
 
 .project-title p {
-	font-size: 1.2em;
-	margin-left: 12.5%;
+	text-align: center;
 }
 
 /********************** 
@@ -238,7 +245,7 @@ MEDIA QUERIES
 /* TARGET MOBILE DEVICES */
 
 
-@media only screen and (min-width : 300px) and (max-width: 736px) {
+@media only screen and (min-width : 300px) and (max-width: 770px) {
 
 	
 	body {
@@ -293,11 +300,21 @@ MEDIA QUERIES
 
 	/* PORTFOLIO PAGE */
 
-	.project-title p {
-		font-weight: 200;
-		font-size: 1.0em;
-		line-height: 0;
-		padding: 3px 0;
+	.project-title {
+		width: 70%;
+		position: absolute;
+		top: 45%;
+		left: 12.5%;
+		background: rgba(0, 0, 0, 0.5);
+	}
+
+	.project-title h2 {
+		font-size: 1.5em;
+		font-weight: 100;
+		margin: 0;
+		text-align: center;
+		line-height: 1.5em;
+		border-bottom: solid 1px #AAA;
 	}
 
 	/* NAV AND FOOTER */
