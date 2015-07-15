@@ -27,14 +27,13 @@ NAVIGATION STYLING
 footer {
 	background: #333;
 	opacity: 0.5;
-	position: fixed;
-	z-index: 1;
 }
 
 #nav-wrap {
 	width: 100vw;
 	height: 50px;
 	padding: 10px 0;
+	position: fixed;
 }
 
 nav img {
@@ -156,32 +155,38 @@ DANIEL PAGE STYLING
 PORTFOLIO STYLING
 ***********************/
 
-.project-wrap,
-.project-wrap img {
+.portfolio-header {
+	padding-top: 100px;
 	width: 100vw;
-	display: block;
-	position: relative; 
+	height: 100px;
 }
 
-.project-title {
-	width: 50%;
-	position: absolute;
-	top: 45%;
-	left: 25%;
-	background: rgba(0, 0, 0, 0.5);
-}
-
-.project-title h2 {
-	font-size: 3em;
-	font-weight: 100;
+.portfolio-header h3 {
+	font-size: 2em;
+	text-align: center;
 	margin: 0;
-	text-align: center;
-	line-height: 1.5em;
-	border-bottom: solid 1px #AAA;
 }
 
-.project-title p {
-	text-align: center;
+.project-wrap {
+	min-height: 400px;
+	width: 33.33%;
+	float: left;
+}
+
+.project-wrap img {
+	max-width: 100%;
+}
+
+.project-info h2 {
+	font-size: 2em;
+	font-weight: 100;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+.project-info p,
+.project-info h2 {
+	padding: 0 10px;
 }
 
 /********************** 
@@ -216,33 +221,6 @@ footer a {
 /********************** 
 MEDIA QUERIES
 ***********************/
-
-/* NAVIGATION IN SMALLER SCREENS */
-@media only screen and (max-width: 900px) {
-
-	nav ul li a,
-	footer a {
-		font-size: 1.2em;
-	}
-
-	footer {
-		height: 40px;
-	}
-
-	footer a {
-		padding-top: 20px;
-	}
-
-	footer p {
-		font-size: 1em;
-		line-height: 10px;
-	}
-}
-
-/* PHONES */
-
-
-/* TARGET MOBILE DEVICES */
 
 
 @media only screen and (min-width : 300px) and (max-width: 770px) {
@@ -298,25 +276,6 @@ MEDIA QUERIES
 		line-height: 1.4em;
 	}
 
-	/* PORTFOLIO PAGE */
-
-	.project-title {
-		width: 70%;
-		position: absolute;
-		top: 45%;
-		left: 12.5%;
-		background: rgba(0, 0, 0, 0.5);
-	}
-
-	.project-title h2 {
-		font-size: 1.5em;
-		font-weight: 100;
-		margin: 0;
-		text-align: center;
-		line-height: 1.5em;
-		border-bottom: solid 1px #AAA;
-	}
-
 	/* NAV AND FOOTER */
 
 	#nav-wrap,
@@ -354,6 +313,35 @@ MEDIA QUERIES
 
 	footer p {
 		margin: 0;
-		padding-top: 5px;
+		padding-top: 10px;
 	}
 }
+
+/* PORTFOLIO PAGE STYLING */
+/* need two seperate queries to help stacking arrangement and page flow with smaller devices and phones */
+
+@media only screen and (min-width: 501px) and (max-width: 1024px) {
+	.project-wrap {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.project-wrap {
+		min-height: 400px;
+		width: 100%;
+	}
+
+	.project-info h2 {
+		font-size: 1.5em;
+	}
+
+	.project-info p {
+		font-size: 0.9em;
+	}
+}
+
+
+
+
+
