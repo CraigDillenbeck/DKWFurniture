@@ -240,20 +240,7 @@ MEDIA QUERIES
 
 	/* HOME PAGE */
 
-	#title-logo {
-		width: 175px;
-		padding-bottom: 20px;
-	}
-
-	.home-large-font {
-		width: inherit;
-		font-size: 1.0em;
-	}
-
-	.home-strong-font {
-		width: inherit;
-		font-size: 0.8em;
-	}
+	
 
 	/* DANIEL PAGE */
 
@@ -327,6 +314,22 @@ MEDIA QUERIES
 }
 
 @media only screen and (max-width: 500px) {
+
+	#title-logo {
+		width: 175px;
+		padding-bottom: 20px;
+	}
+
+	.home-large-font {
+		width: inherit;
+		font-size: 1.0em;
+	}
+
+	.home-strong-font {
+		width: inherit;
+		font-size: 0.8em;
+	}
+	
 	.project-wrap {
 		min-height: 400px;
 		width: 100%;
