@@ -105,9 +105,9 @@ HOME PAGE STYLING
 
 .home-large-font,
 .home-strong-font {
-	width: 50%;
-	margin: 0 auto;
 	text-align: center;
+	width: 60%;
+	margin: 0 auto;
 }
 
 .home-large-font {
@@ -117,6 +117,7 @@ HOME PAGE STYLING
 
 .home-strong-font {
 	font-size: 1.25em;
+	line-height: 1.6em;
 }
 
 
