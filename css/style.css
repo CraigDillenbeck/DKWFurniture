@@ -240,6 +240,7 @@ MEDIA QUERIES
 	.quote {
 		font-size: 1.0em;
 		line-height: 1.4em;
+		padding-top: 30px;
 	}
 
 	.quote-credit {
