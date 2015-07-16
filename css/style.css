@@ -231,19 +231,11 @@ MEDIA QUERIES
 		font-weight: 200;
 	}
 
-	.container {
+	.container,
+	.home-large-font,
+	.home-strong-font {
 		width: 85%;
 	}
-
-	.home-container {
-		width: 85%;
-	}
-
-	/* HOME PAGE */
-
-	
-
-	/* DANIEL PAGE */
 
 	.daniel-container {
 		width: 75%;
