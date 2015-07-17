@@ -152,21 +152,16 @@ PORTFOLIO STYLING
 ***********************/
 
 .portfolio-header {
-	padding-top: 100px;
 	width: 100vw;
 	height: 100px;
-}
-
-.portfolio-header h3 {
-	font-size: 2em;
-	text-align: center;
-	margin: 0;
 }
 
 .project-wrap {
 	min-height: 400px;
 	width: 33.33%;
-	float: left;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: -4px;
 }
 
 .project-wrap img {
